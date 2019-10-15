@@ -11,9 +11,9 @@ div {
   body {
     width: 480px;
   }
-  div {
+  /* div {
     background-color: green;
-  }
+  } */
 }
 
 /* tablet */
@@ -21,17 +21,17 @@ div {
   body {
     width: 480px;
   }
-  div {
+  /* div {
     background-color: red;
-  }
+  } */
 }
 
 /* desktop */
 @media only screen and (min-width: 960px){
-  div {
+  /* div {
     display: block;
     background-color: darkgray;
-  }
+  } */
   body {
     width: 960px;
     margin: auto;
