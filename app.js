@@ -1,6 +1,7 @@
 'use strict'
 
-let colors = [0, 30, 60, 90, 120, 150, 180, 210, 240,];
+let windowWidth = $(window).width();
+let colors = [0, 20, 40, 60, 80, 100, 120, 140, 160,];
 $('#a').css('background-color', `hsl(${colors[0]}, 100%, 50%)`);
 $('#b').css('background-color', `hsl(${colors[1]}, 100%, 50%)`);
 $('#c').css('background-color', `hsl(${colors[2]}, 100%, 50%)`);
